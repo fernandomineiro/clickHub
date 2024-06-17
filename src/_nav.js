@@ -70,16 +70,16 @@ const _nav = [
     name: 'Fornecedores',
     to: '/fornecedor',
   },
+   {
+     component: CNavItem,
+     name: 'Minhas Variações',
+     to: '/varia',
+   },
   // {
   //   component: CNavItem,
-  //   name: 'Minhas Variações',
-  //   to: '/varia',
+  //   name: 'Informações de Estoque',
+  //   to: '/charts',
   // },
-  {
-    component: CNavItem,
-    name: 'Informações de Estoque',
-    to: '/charts',
-  },
   {
     component: CNavTitle,
     name: 'Ajuda',
